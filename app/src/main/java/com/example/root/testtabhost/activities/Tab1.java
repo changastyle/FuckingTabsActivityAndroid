@@ -12,7 +12,13 @@ public class Tab1 extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tab1);
+        setContentView(R.layout.seleccionNumeros);
+
+       /* FragmentManager manager = getFragmentManager();
+        FragmentTransaction transaction = manager.beginTransaction();
+        Fragment fragment1 = new Fragment1();
+        transaction.add(R.layout.activity_tab2,fragment1);
+        transaction.commit();*/
     }
 
     @Override
